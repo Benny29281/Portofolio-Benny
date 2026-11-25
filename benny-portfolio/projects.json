@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "asthmascreen", "name": "AsthmaScreen", "year": "2026", "categories": ["ml", "mobile"], "featured": true,
+    "summary": "Aplikasi mobile penelitian untuk skrining awal asma, dengan model LightGBM yang diakses melalui API Flask.",
+    "stack": ["React Native", "Flask", "MySQL", "LightGBM"],
+    "highlights": ["Aplikasi React Native menangani antarmuka skrining, sementara API Flask menghubungkan aplikasi dengan model.", "Evaluasi penelitian mencakup performa klasifikasi dan kegunaan aplikasi."],
+    "results": [{"value": "88,94%", "label": "Akurasi"}, {"value": "90,12%", "label": "Skor F1"}, {"value": "77,88", "label": "Skor SUS"}]
+  },
+  {
+    "slug": "branding-request", "name": "Branding Request (Sorex.id)", "year": "2025", "categories": ["web"], "featured": true,
+    "summary": "Aplikasi web untuk mengelola permintaan branding dan memantau statusnya.",
+    "stack": ["Laravel", "Tailwind CSS", "Alpine.js"], "repos": ["SorexBrandingLaravel", "BrandingRequest", "Sorex_branding", "branding_status"],
+    "featuredRepo": "SorexBrandingLaravel"
+  },
+  {
+    "slug": "website-ipt", "name": "Website PT Indonesia Pacific Trade", "year": "2026", "categories": ["web"], "featured": true,
+    "summary": "Website perusahaan dalam empat bahasa dengan manajemen konten melalui Payload CMS.",
+    "stack": ["Next.js", "next-intl", "Payload CMS"],
+    "highlights": ["next-intl mendukung pemilihan dan penyajian konten berdasarkan bahasa."], "repos": ["Project-Website-IPT-"]
+  },
+  {
+    "slug": "benzmart", "name": "BenzMart", "categories": ["backend"],
+    "summary": "Backend toko dengan Go, pemrosesan event melalui Kafka, dan rotasi token autentikasi.",
+    "stack": ["Go", "MySQL", "Kafka", "Redis", "Docker"],
+    "highlights": ["Kafka menangani aliran event. MySQL dan Redis mendukung penyimpanan data dan akses cepat.", "Rotasi token menjadi bagian dari alur autentikasi."], "repos": ["benzmart_go-golang-"]
+  },
+  {
+    "slug": "helpdeskku", "name": "HelpDeskKu", "categories": ["backend"],
+    "summary": "Sistem tiket bantuan dengan kontrol akses berbasis peran dan pelacakan SLA.",
+    "stack": ["ASP.NET Core 8", "Angular", "SQL Server"],
+    "highlights": ["Angular menyediakan antarmuka tiket yang terhubung dengan backend ASP.NET Core 8.", "Aturan akses berbasis peran membatasi tindakan pengguna, sementara SLA digunakan untuk memantau penanganan tiket."], "repos": ["project-tiket"]
+  },
+  {
+    "slug": "hossler-studios", "name": "Hossler Studios Store", "categories": ["web"],
+    "summary": "Storefront berbasis Next.js dan React dengan PostgreSQL sebagai basis data.",
+    "stack": ["Next.js", "React", "PostgreSQL"], "repos": ["Hossler-Studios"]
+  },
+  {
+    "slug": "steizen-store", "name": "Steizen Store", "year": "2026", "categories": ["web"],
+    "summary": "Toko top-up berbasis Laravel yang mengintegrasikan Digiflazz dan pembayaran Tripay.",
+    "stack": ["Laravel 13", "Digiflazz", "Tripay"], "repos": ["Steizen-top-up"]
+  },
+  {
+    "slug": "worklog", "name": "Worklog", "categories": ["web"],
+    "summary": "Aplikasi pencatatan pekerjaan dengan PHP native dan penyimpanan MySQL.",
+    "stack": ["PHP", "MySQL"], "repos": ["web-kerjaan"]
+  },
+  {
+    "slug": "monitor-stok", "name": "Monitor Stok dan Harga", "year": "2026", "categories": ["web"],
+    "summary": "Aplikasi Flask untuk menampilkan hasil pengambilan data stok dan harga dari web.",
+    "stack": ["Flask", "Bootstrap"], "repos": ["Project-Web-Scraping", "Project-WEB"]
+  },
+  {
+    "slug": "ipt-katalog", "name": "IPT Katalog", "year": "2026", "categories": ["web"],
+    "summary": "Katalog web yang mengambil data dari Google Drive melalui API.",
+    "stack": ["JavaScript", "Google Drive API"], "repos": ["project-katalog"]
+  },
+  {
+    "slug": "ipt-store", "name": "IPT Store", "year": "2026", "categories": ["mobile"],
+    "summary": "Aplikasi toko mobile dengan React Native dan Expo yang terhubung ke API PHP.",
+    "stack": ["React Native", "Expo", "PHP", "MySQL"], "repos": ["Aplikasi-IPT"]
+  },
+  {
+    "slug": "tobapia", "name": "Tobapia Storefront", "categories": ["web"],
+    "summary": "Storefront dengan PHP 8 dan penyimpanan lokal berbasis SQLite.",
+    "stack": ["PHP 8", "SQLite"], "repos": ["Project_Penjualan_IPT"]
+  },
+  {
+    "slug": "katalog-pemesanan", "name": "Katalog Pemesanan Statis", "categories": ["web"],
+    "summary": "Katalog untuk pemesanan produk dengan halaman statis dan pengelolaan konten melalui Sveltia CMS.",
+    "stack": ["HTML", "CSS", "JavaScript", "Sveltia CMS"], "repos": ["IPT-Produk", "Produk-IPT"]
+  },
+  {
+    "slug": "dashboard-kmeans", "name": "Dashboard K-Means", "year": "2025", "categories": ["ml"],
+    "summary": "Dashboard yang menampilkan hasil pengelompokan data dengan algoritme K-Means dalam proyek Sorex.",
+    "stack": ["Python", "Scikit-learn"]
+  },
+  {
+    "slug": "atlantis-nako", "name": "Atlantis Nako", "year": "2024", "categories": ["mobile"],
+    "summary": "Proyek aplikasi Android yang dikembangkan menggunakan Java.",
+    "stack": ["Android", "Java"], "repos": ["Atlantis-Nako"]
+  },
+  {
+    "slug": "klasifikasi-kupu-kupu", "name": "Klasifikasi Kupu-kupu", "year": "2024", "categories": ["ml"],
+    "summary": "Eksperimen klasifikasi kupu-kupu dengan Python dan Singular Value Decomposition (SVD).",
+    "stack": ["Python", "SVD"]
+  },
+  {
+    "slug": "sewa-kos", "name": "Sewa Kos", "year": "2024", "categories": ["web"],
+    "summary": "Aplikasi web untuk penyewaan kos dengan Laravel dan basis data MySQL.",
+    "stack": ["Laravel", "MySQL"]
+  }
+]
