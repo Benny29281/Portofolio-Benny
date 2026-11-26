@@ -46,8 +46,8 @@ function renderFeatured(project) {
       <p class="feature-category">${escape(labels.join(' / '))}</p>
       <h3><a href="#${slug}">${escape(project.name)}</a></h3>
       <p class="feature-summary">${escape(project.summary)}</p>
-      <ul class="feature-stack" aria-label="Teknologi">${project.stack.map((tech) => `<li>${escape(tech)}</li>`).join('')}</ul>
-      ${repo ? `<a class="feature-repo" href="${github}/${encodeURIComponent(repo)}">GitHub: ${escape(repo)}</a>` : ''}
+      <ul class="feature-stack" aria-label="Teknologi">${project.stack.map((tech) => `<li>${escape(tech)}</li>`).join('')}</ul>${repo ? `
+      <a class="feature-repo" href="${github}/${encodeURIComponent(repo)}">GitHub: ${escape(repo)}</a>` : ''}
     </div>
   </article>`;
 }

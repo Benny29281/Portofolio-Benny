@@ -9,8 +9,7 @@
   {
     "slug": "branding-request", "name": "Branding Request (Sorex.id)", "year": "2025", "categories": ["web"], "featured": true,
     "summary": "Aplikasi web untuk mengelola permintaan branding dan memantau statusnya.",
-    "stack": ["Laravel", "Tailwind CSS", "Alpine.js"], "repos": ["SorexBrandingLaravel"],
-    "featuredRepo": "SorexBrandingLaravel"
+    "stack": ["Laravel", "Tailwind CSS", "Alpine.js"], "repos": ["SorexBrandingLaravel"]
   },
   {
     "slug": "website-ipt", "name": "Website PT Indonesia Pacific Trade", "year": "2026", "categories": ["web"], "featured": true,
